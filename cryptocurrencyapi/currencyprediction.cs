@@ -23,12 +23,12 @@ namespace currency6
 
             var currencyinfo = currencyApi.currencyinformation();
 
-            var q = currencyinfo.Result.high;
-            var e = currencyinfo.Result.low;
-            var r = q + e;
-            var t = Convert.ToInt32(r) / 2;
+            var y = currencyinfo.Result.high;
+            var o = currencyinfo.Result.low;
+            var u = y + o;
+            var n = Convert.ToInt32(u) / 2;
 
-            var m = t - average1;
+            var m = n - average1;
 
             var predictonbuy = m + currencyinfo.Result.buy;
 
