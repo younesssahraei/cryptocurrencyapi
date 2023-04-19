@@ -7,7 +7,7 @@ namespace currency6
         public void prediction()
 
         {
-            string address = @"B:\currency data\time.text";
+            string address = @"B:\currency data\data.text";
             StreamReader streader = new StreamReader(address);
 
 
