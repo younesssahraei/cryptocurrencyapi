@@ -11,7 +11,7 @@ namespace currency5
         public void data()
         {
 
-            string address = @"B:\currency data\time.text";
+            string address = @"B:\currency data\data.text";
             StreamWriter stwriter = new StreamWriter(address);
 
             TimeSpan tens = new TimeSpan(0, 0, 10);
